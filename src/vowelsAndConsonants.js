@@ -4,16 +4,16 @@ function vowelCount( s){
 
 
 for(let i=0; i<s.length; i++) {
-    if(vowels.contains(s[i])) {
+    if(vowels.indexOf(s[i])<-1) {
       console.log(s[i])
     }
   }
     for(let j=0; j<s. length; j++) {
-      if(vowels.indexOf(s[j]) === -1) 
+      if(vowels.indexOf(s[j]) < 1) 
     // note: if(!vowels.includes(s[j])) would work exactly the same too and is the same method as what you used above 
       console.log(s[j]);
     }
   
   }
 
-//vowelCount('javascriptcoding');
+vowelCount('javascriptcoding');
