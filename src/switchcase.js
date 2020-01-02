@@ -60,3 +60,9 @@ cars.push('honda');
 console.log(cars);
 cars.unshift('mercedes');
 console.log(cars);
+
+let arr=['Selenium','Java'];
+let arr1=['Postman','Jmeter'];
+let arr2=['javascript','React'];
+let arrResults=arr.concat(arr1,arr2);
+console.log(arrResults);
