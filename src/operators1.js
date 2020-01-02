@@ -16,3 +16,14 @@ console.log(typeof false);
 console.log(typeof NaN);
 console.log(typeof {name:'y'});
 console.log(typeof [1,2,3]);
+console.log(typeof 23.23);
+
+console.log('bitwise');
+let s=3,s1=2;
+
+console.log(s & s1);
+console.log(s | s1);
+console.log(~ s1);
+console.log(s ^ s1);
+console.log(2<<1);//left shift
+console.log(3<<1);//right shift
