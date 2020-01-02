@@ -31,6 +31,10 @@ let col=['blue','green','yellow','red'];
 for(c in col){
     console.log(col[c]);
 }
+col.push('black');
+col.push('brown');
+col.push('pink');
+console.log(col.length);
 for(c of col){
 console.log(c);
 }
@@ -48,3 +52,11 @@ do{
 }while(count<8){
     console.log(count);
 }
+
+console.log('Arrays');
+let cars=new Array('nissan','toyota','lexus');
+console.log(cars);
+cars.push('honda');
+console.log(cars);
+cars.unshift('mercedes');
+console.log(cars);
