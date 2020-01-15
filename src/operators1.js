@@ -27,3 +27,7 @@ console.log(~ s1);
 console.log(s ^ s1);
 console.log(2<<1);//left shift
 console.log(3<<1);//right shift
+let ss="1234";
+if(typeof ss=="string"){
+    console.log(ss.split("").reverse().join(""));
+}
